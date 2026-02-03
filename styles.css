@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  margin: 0 25px;
+}
+
+.links-tabs {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.links-tabs a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.links-tabs a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.button-link {
+  background-color: #000000;
+  padding: 8px 6px;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid gray;
+}
+
+.button-link a {
+  color: white !important;
+}
+
+.button-link a:hover {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+main {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.para {
+  color: gray;
+  width: 40%;
+}
+
+.hero-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 6px;
+  width: 10rem;
+  border-radius: 10px;
+}
+
+.hero-btn:hover {
+  background-color: #010101;
+  cursor: pointer;
+}
+
+.image-div {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.cards-section h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image1 {
+  width: 21rem;
+  height: 21rem;
+}
